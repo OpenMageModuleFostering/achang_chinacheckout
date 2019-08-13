@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Achang_ChinaCheckout</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>&#x79FB;&#x9664;&#x5E10;&#x5355;&#x5730;&#x5740;</summary>
+    <description>&#x79FB;&#x9664;&#x8D26;&#x5355;&#x5730;&#x5740;&#x4F1A;&#x5E2E;&#x52A9;&#x4F60;&#x7B80;&#x5316;&#x8D2D;&#x4E70;&#x6D41;&#x7A0B;&#xFF0C;&#x56E0;&#x4E3A;&#x5728;&#x4E2D;&#x56FD;&#x4E0D;&#x9700;&#x8981;&#x8D26;&#x5355;&#x5730;&#x5740;&#x7684;&#x529F;&#x80FD;.</description>
+    <notes>&#x79FB;&#x9664;&#x5E10;&#x5355;&#x5730;&#x5740;</notes>
+    <authors><author><name>achang</name><user>achang</user><email>magento@achang.com</email></author></authors>
+    <date>2013-10-21</date>
+    <time>09:43:31</time>
+    <contents><target name="magelocal"><dir name="Achang"><dir name="ChinaCheckout"><dir name="Block"><dir name="Checkout"><dir name="Onepage"><file name="Billing.php" hash="efb47a161ecde4f7a231775f1621e125"/></dir><file name="Onepage.php" hash="482974a5aba2924ff82385d21ab151d8"/></dir><dir name="Customer"><dir name="Account"><dir name="Dashboard"><file name="Address.php" hash="f2a00512542985313481454beee33d1c"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="77453261ac36b0d7f72e8c024850b231"/></dir><dir name="etc"><file name="config.xml" hash="283628a8d3b0c6c1e347edae6c917aeb"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Achang_ChinaCheckout.xml" hash="37f489696b00f2ebd3dff88fc3d33dbe"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="sales"><dir name="order"><dir name="view"><file name="info.phtml" hash="c8b00370b5b0009b95908420ffe06f72"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="checkout"><dir name="multishipping"><file name="billing.phtml" hash="afd51819c1dfe08d68f17f64c399f340"/><file name="overview.phtml" hash="1d3ab5618a5e0168b0a4ce07c8938b79"/><file name="shipping.phtml" hash="6462c3cc4928e18848c5de9d305ac598"/><file name="state.phtml" hash="d7aeb2cff8cfd3a39aec15920b7f5ea1"/></dir><dir name="onepage"><file name="progress.phtml" hash="9f52f0c3cd6c1a62a14b3bac0ca345b3"/></dir></dir><dir name="customer"><dir name="account"><dir name="dashboard"><file name="address.phtml" hash="ba680b3f18d7294c9b2a0af36211a5c9"/></dir></dir><dir name="address"><file name="book.phtml" hash="70bddb52ccd6b0e62f47673e6c4ad83a"/><file name="edit.phtml" hash="3e3d78cd56a2ba2d07df4f05f8b94ac1"/></dir></dir><dir name="persistent"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="03e51f5556545fe24c1acf8fe086b1bc"/></dir></dir></dir><dir name="sales"><dir name="order"><file name="info.phtml" hash="a0427c39b81c0175a3a269f551d8a1ec"/></dir></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="zh_CN"><file name="Mage_Checkout.csv" hash="f7fa44c243b3cf92c9c96fc3006bce76"/></dir><dir name="en_US"><file name="Mage_Checkout.csv" hash="eee63516e1c8c50348a1d33a91434ad4"/><dir name="template"><dir name="email"><dir name="sales"><file name="order_new.html" hash="8a1e87c60c9a23be9db4af68721a273a"/><file name="order_new_guest.html" hash="dff357c94fa350194e443a0ad85fbe4b"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
