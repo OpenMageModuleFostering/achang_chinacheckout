@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Achang_ChinaCheckout",
+    "name": "OpenMageModuleFostering\/Achang_ChinaCheckout",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "移除帐单地址",
+    "description": "\u79fb\u9664\u5e10\u5355\u5730\u5740",
     "authors": [
-    {
-        "name": "achang",
-        "email": "magento@achang.com"
-    }
-],
+        {
+            "name": "achang",
+            "email": "magento@achang.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
